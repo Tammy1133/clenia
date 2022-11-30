@@ -1,0 +1,68 @@
+.counterDiv {
+  position: relative;
+  margin-top: 140px;
+  height: 300px;
+}
+
+@media (max-width: 760px) {
+  .counterDiv {
+    position: relative;
+    margin-top: 200px;
+    height: 900px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .counterDiv {
+    margin-top: 490px;
+  }
+}
+
+.counter {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 128, 0, 0.322);
+  width: 100%;
+  height: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counterImg {
+  filter: brightness(15%);
+}
+
+.countericon {
+  height: 100px;
+  width: 100px;
+}
+
+.counterNo {
+  font-size: 90px;
+  color: white;
+}
+.counterNo {
+  font-size: 40px;
+  color: white;
+}
+.counterInfo {
+  font-size: 50px;
+  color: white;
+}
+.counterInfo h4 {
+  font-size: 21px;
+}
+.counterDetails {
+  margin-left: 25px;
+}
+
+.counterItem {
+  margin-right: 30px;
+}
+
+@media (max-width: 500px) {
+  .counterDiv {
+    margin-top: 240px;
+  }
+}

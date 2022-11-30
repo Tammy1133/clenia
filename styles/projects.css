@@ -1,0 +1,92 @@
+.projects img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-box-reflect: below 2px
+    linear-gradient(transparent, transparent, #0004);
+
+  transform-origin: center;
+  transform: perspective(800px) rotateY(25deg);
+  transition: 0.5s;
+}
+.flipCont {
+  /* max-width: 600px; */
+  max-height: 350px;
+  margin-left: 30px;
+  justify-content: space-around;
+
+  gap: 20px;
+}
+.flipCont:hover img {
+  opacity: 0.3;
+}
+.flipCont img:hover {
+  transform: perspective(800px) rotateY(0deg);
+  opacity: 1;
+}
+
+/* personal  */
+
+.projects {
+  margin-top: 90px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.eachProject {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 120px;
+  margin-right: 30px;
+}
+
+.project-name {
+  margin-top: 335px;
+}
+.project-name h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.project-name p {
+  font-size: 15px;
+}
+
+.projectHeader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: green;
+  margin-top: 50px;
+}
+.projectSubHeader {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 27px;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 551px) and (max-width: 700px) {
+  .eachProject {
+    height: 200px;
+    width: 200px;
+  }
+  .project-name {
+    margin-top: 225px;
+  }
+}
+
+@media (max-width: 550px) {
+  .eachProject {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 120px;
+    margin-right: 30px;
+  }
+
+  .project-name {
+    margin-top: 335px;
+  }
+}

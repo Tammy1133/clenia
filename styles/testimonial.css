@@ -1,0 +1,87 @@
+.testimonial {
+  padding-top: 40px;
+  margin-top: 45px;
+  background-color: rgba(0, 36, 0, 0.823);
+  position: relative;
+  height: 950px;
+}
+
+.testimonialHeader {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(170, 255, 0);
+  margin-top: 50px;
+}
+.testimonialSub {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.eachTest {
+  width: 88% !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(1, 61, 1, 0.474);
+  padding: 30px;
+  color: white;
+}
+
+.carouselSection {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testBg {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.test-Details {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+}
+
+.testBgImage {
+  filter: brightness(30%);
+  opacity: 40%;
+}
+
+.quoteIcon {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+}
+.starIcon {
+  position: relative;
+  height: 50px;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.testName {
+  font-size: 23px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.testJob {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 600px) {
+  .testimonialSub {
+    width: 70%;
+  }
+}

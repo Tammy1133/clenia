@@ -1,0 +1,167 @@
+.valuedSection {
+  padding-top: 30px;
+}
+
+.valued {
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.092);
+}
+
+.valuedHeader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 650;
+  color: rgb(59, 95, 5);
+}
+
+.valuedSub {
+  font-weight: 630;
+}
+
+/* Template.  */
+
+/* Template end */
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-top-big {
+  margin-top: 5rem !important;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+}
+
+.heading-primary--main {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+  -webkit-animation-name: moveInLeft;
+  animation-name: moveInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  /*
+          animation-delay: 3s;
+          animation-iteration-count: 3;
+          */
+}
+
+.card {
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+}
+
+.card__side {
+  height: 280px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 7px;
+  overflow: hidden;
+  /* -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); */
+}
+
+.card__side--front {
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+.card__side--front-1 {
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.card__side--back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card__side--back-1 {
+  background: linear-gradient(-30deg, rgba(0, 77, 0, 0.9), rgb(0, 255, 0));
+  color: white;
+}
+
+.card:hover .card__side--front-1 {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
+.col-1-of-3 {
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+}
+
+.cardIcon {
+  height: 60px;
+  width: 60px;
+}
+
+.card-title {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.card-Subtitle {
+  font-size: 15px;
+}
+
+.valuedSub {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.allCols {
+  margin-top: 70px;
+}
+
+.side-header {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.side-others {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+@media (min-width: 460px) and (max-width: 764px) {
+  .col-1-of-3 {
+    width: 230px;
+    height: 350px;
+  }
+}

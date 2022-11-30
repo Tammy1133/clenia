@@ -1,0 +1,44 @@
+.whySection {
+  margin-top: 100px;
+}
+
+.whyHeader {
+  margin-top: 30px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 610;
+}
+
+.chooseIcon {
+  height: 60px;
+  width: 100px;
+  align-items: center;
+}
+
+.allWhy {
+  height: 100%;
+  margin-top: 80px;
+}
+.allWhy .right {
+  width: 246px;
+}
+.allWhy .right p {
+  width: 75%;
+}
+
+.whyItem {
+  margin-bottom: 30px;
+  /* margin-left: 150px !important; */
+}
+
+.whyChooseImage {
+  position: relative;
+  height: 500px;
+  width: 50%;
+  align-self: center;
+}
+
+.mainDiv {
+  margin-top: 90px;
+}
