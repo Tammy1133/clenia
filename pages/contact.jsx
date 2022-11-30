@@ -3,7 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import Container from "react-bootstrap/Container";
-import logo from "../assets/logo.png";
+import logo from "../assets/mylogo.png";
+
 import React, { useState, useRef, useEffect } from "react";
 
 const Contact = () => {
