@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import Container from "react-bootstrap/Container";
-import logo from "../assets/mylogo.png";
+import logo from "../assets/mylog.png";
 
 import React, { useState, useRef, useEffect } from "react";
 
@@ -20,7 +20,7 @@ const Contact = () => {
                     src={logo}
                     alt="newslogo"
                     height={70}
-                    width={100}
+                    width={70}
                   ></Image>
                 </div>
               </Navbar.Brand>
