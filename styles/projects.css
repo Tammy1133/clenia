@@ -35,14 +35,14 @@
 
 .eachProject {
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 600px;
   margin-bottom: 120px;
   margin-right: 30px;
 }
 
 .project-name {
-  margin-top: 335px;
+  margin-top: 435px;
 }
 .project-name h3 {
   font-weight: 600;
@@ -67,26 +67,22 @@
   margin-bottom: 45px;
 }
 
-@media (min-width: 551px) and (max-width: 700px) {
-  .eachProject {
-    height: 200px;
-    width: 200px;
-  }
-  .project-name {
-    margin-top: 225px;
-  }
+.projectsList {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+  grid-template-columns: 2;
 }
 
-@media (max-width: 550px) {
-  .eachProject {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    margin-bottom: 120px;
-    margin-right: 30px;
+@media (min-width: 1024px) {
+  .projectsList {
+    grid-template-columns: 3;
   }
-
-  .project-name {
-    margin-top: 335px;
+}
+@media (min-width: 728px) {
+  .projectsList {
+    grid-template-columns: 2;
   }
 }

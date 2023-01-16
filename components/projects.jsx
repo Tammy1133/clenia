@@ -14,7 +14,70 @@ const Projects = () => {
       <div className="projectSubHeader">
         What`&apos;`s Awesome Projects We Finished For Customers
       </div>
-      <div className="flipCont d-flex flex-wrap ">
+
+      <div className="mt-3">
+        <div className="projectsList">
+          <div className="eachProject">
+            <div className="eachImage">
+              <Image src={project1} layout="fill" objectFit="cover"></Image>
+            </div>
+            <div className="project-name">
+              <h3>Dust Surfaces</h3>
+              <p>Lagos, Nigeria</p>
+            </div>
+          </div>
+          <div className="eachProject">
+            <div className="eachImage">
+              <Image src={project2} layout="fill" objectFit="cover"></Image>
+            </div>
+            <div className="project-name">
+              <h3>Vaccum Carpet</h3>
+              <p>Abuja, Nigeria</p>
+            </div>
+          </div>
+
+          <div className="eachProject">
+            <div className="eachImage">
+              <Image src={project3} layout="fill" objectFit="cover"></Image>
+            </div>
+            <div className="project-name">
+              <h3>Outdoor Cleaning</h3>
+              <p>Lagos, Nigeria</p>
+            </div>
+          </div>
+
+          <div className="eachProject">
+            <div className="eachImage">
+              <Image src={project4} layout="fill" objectFit="cover"></Image>
+            </div>
+            <div className="project-name">
+              <h3>Commercial Cleaning</h3>
+              <p>Eboyi, Nigeria</p>
+            </div>
+          </div>
+
+          <div className="eachProject">
+            <div className="eachImage">
+              <Image src={project5} layout="fill" objectFit="cover"></Image>
+            </div>
+            <div className="project-name">
+              <h3>Window Cleaning</h3>
+              <p>Epe, Nigeria</p>
+            </div>
+          </div>
+
+          <div className="eachProject">
+            <div className="eachImage">
+              <Image src={project6} layout="fill" objectFit="cover"></Image>
+            </div>
+            <div className="project-name">
+              <h3>Equipment Cleaning</h3>
+              <p>Eboyi, Nigeria</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="flipCont d-flex flex-wrap ">
         <div className="eachProject" data-aos="fade-up">
           <div className="eachImage">
             <Image src={project1} layout="fill" objectFit="cover"></Image>
@@ -74,7 +137,7 @@ const Projects = () => {
             <p>Eboyi, Nigeria</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
