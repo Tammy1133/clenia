@@ -19,7 +19,7 @@ const Intro = () => {
         <div class=" position-absolute text-center">
           <div class=" intro-section">
             <h6 className="welcome " data-aos="fade-up">
-              Welcome to Tammz
+              Welcome to tmz
             </h6>
             <h2 class="commercial" data-aos="fade-up">
               Commercial{" "}
@@ -29,7 +29,6 @@ const Intro = () => {
             </h4>
             <p class=" other-intro " data-aos="fade-up">
               Suitable for all your cleaning services <br />
-              and all business related to cleaning and organization
             </p>
             <div class="d-flex  justify-content-center mt-4" data-aos="fade-up">
               <a href="#about">
