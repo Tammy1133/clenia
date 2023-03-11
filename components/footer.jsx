@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div style={{ marginTop: "60px" }}>
+    <div>
       <div className="container-fluid bg-light pt-5 px-sm-3 px-md-5 myFoot">
         <div className="row">
           <div className="col-lg-7 col-md-11 mb-5 mx-md-3">

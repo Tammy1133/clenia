@@ -18,18 +18,13 @@ const Intro = () => {
         </div>
         <div class=" position-absolute text-center">
           <div class=" intro-section">
-            <h6 className="welcome " data-aos="fade-up">
-              Welcome to tmz
-            </h6>
             <h2 class="commercial" data-aos="fade-up">
               Commercial{" "}
             </h2>
             <h4 className="cservices" data-aos="fade-up">
               Cleaning services
             </h4>
-            <p class=" other-intro " data-aos="fade-up">
-              Suitable for all your cleaning services <br />
-            </p>
+
             <div class="d-flex  justify-content-center mt-4" data-aos="fade-up">
               <a href="#about">
                 <button class="button-88 " role="button">
